@@ -109,7 +109,7 @@ Please visit https://go.microsoft.com/fwlink/?linkid=868517 to view the release 
     <file platform="windows" src="runtimes/win-x86/native/libHarfBuzzSharp.dll" />
     <file platform="windows" src="runtimes/win-arm64/native/libHarfBuzzSharp.dll" />
     <!-- macos -->
-    <file platform="macos" src="runtimes/osx/native/libHarfBuzzSharp.dylib" />
+    <file platform="macos" src="runtimes/osx/native/x86_64/libHarfBuzzSharp.dylib" />
     <!-- win10 -->
     <file platform="windows" src="runtimes/win10-x64/nativeassets/uap10.0/libHarfBuzzSharp.dll" />
     <file platform="windows" src="runtimes/win10-x86/nativeassets/uap10.0/libHarfBuzzSharp.dll" />
@@ -124,12 +124,11 @@ Please visit https://go.microsoft.com/fwlink/?linkid=868517 to view the release 
     <file platform="macos,windows" src="build/monoandroid1.0/arm/libHarfBuzzSharp.so" />
     <file platform="macos,windows" src="build/monoandroid1.0/arm64/libHarfBuzzSharp.so" />
     <!-- ios -->
-    <file platform="macos" src="build/xamarinios1.0/libHarfBuzzSharp.a" />
+    <file platform="macos" src="build/xamarinios1.0/**/libHarfBuzzSharp.a" target="build/xamarinios1.0/" />
     <!-- tvos -->
-    <file platform="macos" src="build/xamarintvos1.0/libHarfBuzzSharp.a" />
+    <file platform="macos" src="build/xamarintvos1.0/**/libHarfBuzzSharp.a" target="build/xamarintvos1.0/" />
     <!-- watchos -->
-    <file platform="macos" src="build/xamarinwatchos1.0/libHarfBuzzSharp.a" />
-
+    <file platform="macos" src="build/xamarinwatchos1.0/**/libHarfBuzzSharp.a" target="build/xamarinwatchos1.0/" />
 
     <!-- legal -->
     <file src="LICENSE.txt" />

@@ -7,7 +7,7 @@
     <DefineConstants>$(DefineConstants);HARFBUZZ;__MACOS__</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\output\native\osx\libHarfBuzzSharp.dylib" Link="nuget\runtimes\osx\native\libHarfBuzzSharp.dylib" />
+    <None Include="..\..\output\native\osx\x86_64\libHarfBuzzSharp.dylib" Link="nuget\runtimes\osx\native\x86_64\libHarfBuzzSharp.dylib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="nuget\build\xamarinmac2.0\HarfBuzzSharp.targets" Link="nuget\build\$(TargetFramework)\HarfBuzzSharp.targets" />

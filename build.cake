@@ -130,7 +130,7 @@ Task ("libs")
     RunProcess (MDocPath, new ProcessSettings {
         Arguments = $"assemble --out=\"./output/docs/mdoc/SkiaSharp\" \"{DOCS_PATH}\" --debug",
     });
-    CopyFileToDirectory ("./docs/SkiaSharp.source", "./output/docs/mdoc/");
+    // CopyFileToDirectory ("./docs/SkiaSharp.source", "./output/docs/mdoc/");
 });
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -7,7 +7,8 @@
     <DefineConstants>$(DefineConstants);HARFBUZZ</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\output\native\tvos\libHarfBuzzSharp.a" Link="nuget\build\$(TargetFramework)\libHarfBuzzSharp.a" />
+    <None Include="..\..\output\native\tvos\arm64\libHarfBuzzSharp.a" Link="nuget\build\$(TargetFramework)\arm64\libHarfBuzzSharp.a" />
+    <None Include="..\..\output\native\tvos\x86_64\libHarfBuzzSharp.a" Link="nuget\build\$(TargetFramework)\x86_64\libHarfBuzzSharp.a" />
   </ItemGroup>
   <ItemGroup>
     <None Include="nuget\build\$(TargetFramework)\HarfBuzzSharp.targets" Link="nuget\build\$(TargetFramework)\HarfBuzzSharp.targets" />
