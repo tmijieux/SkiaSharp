@@ -25,6 +25,9 @@ namespace SkiaSharp.Views.Forms
 				? new SKNativeView()
 				: base.CreateNativeControl();
 
+
+			Console.WriteLine($"11 coucou type={view.GetType()}");
+
 			// Force the opacity to false for consistency with the other platforms
 			view.Opaque = false;
 

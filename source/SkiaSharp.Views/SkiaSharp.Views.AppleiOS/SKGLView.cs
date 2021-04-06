@@ -1,4 +1,7 @@
-﻿#if !__WATCHOS__
+﻿#define __IOS__
+
+
+#if !__WATCHOS__
 
 using System;
 using System.ComponentModel;
@@ -80,7 +83,6 @@ namespace SkiaSharp.Views.iOS
 
 			if (designMode)
 				return;
-
 			// create the GL context
 			Context = new EAGLContext(EAGLRenderingAPI.OpenGLES2);
 			DrawableColorFormat = GLKViewDrawableColorFormat.RGBA8888;
@@ -100,6 +102,7 @@ namespace SkiaSharp.Views.iOS
 		{
 			if (designMode)
 				return;
+
 
 			// create the contexts if not done already
 			if (context == null)

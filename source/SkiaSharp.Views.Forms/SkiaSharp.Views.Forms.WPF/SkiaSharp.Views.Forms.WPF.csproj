@@ -17,7 +17,7 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.5.0.725" />
+    <PackageReference Include="Xamarin.Forms" Version="9.9.9-custom" />
     <PackageReference Include="Xamarin.Forms.Platform.WPF" Version="4.5.0.725" />
   </ItemGroup>
   <ItemGroup>
