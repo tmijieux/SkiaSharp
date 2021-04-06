@@ -5,6 +5,11 @@
     <AssemblyName>SkiaSharp</AssemblyName>
     <PackagingGroup>SkiaSharp</PackagingGroup>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
   <ItemGroup>
     <None Include="..\..\output\native\ios\libSkiaSharp.framework\**" Link="nuget\build\$(TargetFramework)\libSkiaSharp.framework\%(RecursiveDir)%(Filename)%(Extension)" />
   </ItemGroup>

@@ -5,6 +5,11 @@
     <AssemblyName>SkiaSharp.Views.iOS</AssemblyName>
     <PackagingGroup>SkiaSharp.Views</PackagingGroup>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\binding\SkiaSharp.iOS\SkiaSharp.iOS.csproj" />
   </ItemGroup>

@@ -24,14 +24,14 @@ Uno.UI                                          release     2.4.4
 
 # additional references used by the tooling
 OpenTK.GLControl                                reference   1.1.2349.61993
-Xamarin.Forms                                   reference   4.4.0.991757
+Xamarin.Forms                                   reference   5.0.0.2012
 
 # native milestones
 # this is related to the API versions, not the library versions
 #  - milestone: the skia milestone determined by Google/Chromium
 #  - increment: the C API version increment caused by new APIs
 libSkiaSharp            milestone   80
-libSkiaSharp            increment   3
+libSkiaSharp            increment   4
 
 # native sonames
 libSkiaSharp            soname      80.3.0
@@ -39,35 +39,35 @@ HarfBuzz                soname      0.20601.0
 
 # SkiaSharp.dll
 SkiaSharp               assembly    2.80.0.0
-SkiaSharp               file        2.80.3.0
+SkiaSharp               file        2.80.4.0
 
 # HarfBuzzSharp.dll
 HarfBuzzSharp           assembly    1.0.0.0
-HarfBuzzSharp           file        2.6.1.7
+HarfBuzzSharp           file        2.6.1.9
 
 # nuget versions
-SkiaSharp                                       nuget       2.80.3
-SkiaSharp.NativeAssets.Linux                    nuget       2.80.3
-SkiaSharp.NativeAssets.Linux.NoDependencies     nuget       2.80.3
-SkiaSharp.NativeAssets.NanoServer               nuget       2.80.3
-SkiaSharp.NativeAssets.WebAssembly              nuget       2.80.3
-SkiaSharp.Views                                 nuget       2.80.3
-SkiaSharp.Views.Desktop.Common                  nuget       2.80.3
-SkiaSharp.Views.Gtk2                            nuget       2.80.3
-SkiaSharp.Views.Gtk3                            nuget       2.80.3
-SkiaSharp.Views.WindowsForms                    nuget       2.80.3
-SkiaSharp.Views.WPF                             nuget       2.80.3
-SkiaSharp.Views.Forms                           nuget       2.80.3
-SkiaSharp.Views.Forms.WPF                       nuget       2.80.3
-SkiaSharp.Views.Forms.GTK                       nuget       2.80.3
-SkiaSharp.Views.Uno                             nuget       2.80.3
-SkiaSharp.HarfBuzz                              nuget       2.80.3
-SkiaSharp.Vulkan.SharpVk                        nuget       2.80.3
-HarfBuzzSharp                                   nuget       2.6.1.7
-HarfBuzzSharp.NativeAssets.Linux                nuget       2.6.1.7
-HarfBuzzSharp.NativeAssets.WebAssembly          nuget       2.6.1.7
+SkiaSharp                                       nuget       2.80.4
+SkiaSharp.NativeAssets.Linux                    nuget       2.80.4
+SkiaSharp.NativeAssets.Linux.NoDependencies     nuget       2.80.4
+SkiaSharp.NativeAssets.NanoServer               nuget       2.80.4
+SkiaSharp.NativeAssets.WebAssembly              nuget       2.80.4
+SkiaSharp.Views                                 nuget       2.80.4
+SkiaSharp.Views.Desktop.Common                  nuget       2.80.4
+SkiaSharp.Views.Gtk2                            nuget       2.80.4
+SkiaSharp.Views.Gtk3                            nuget       2.80.4
+SkiaSharp.Views.WindowsForms                    nuget       2.80.4
+SkiaSharp.Views.WPF                             nuget       2.80.4
+SkiaSharp.Views.Forms                           nuget       2.80.4
+SkiaSharp.Views.Forms.WPF                       nuget       2.80.4
+SkiaSharp.Views.Forms.GTK                       nuget       2.80.4
+SkiaSharp.Views.Uno                             nuget       2.80.4
+SkiaSharp.HarfBuzz                              nuget       2.80.4
+SkiaSharp.Vulkan.SharpVk                        nuget       2.80.4
+HarfBuzzSharp                                   nuget       2.6.1.8
+HarfBuzzSharp.NativeAssets.Linux                nuget       2.6.1.8
+HarfBuzzSharp.NativeAssets.WebAssembly          nuget       2.6.1.8
 
 # nuget replacement versions
-Xamarin.Forms                                   nuget       4.6.0.772
-Xamarin.Forms.Platform.WPF                      nuget       4.6.0.772
-Xamarin.Forms.Platform.GTK                      nuget       4.6.0.772
+Xamarin.Forms                                   nuget       5.0.0.2012
+Xamarin.Forms.Platform.WPF                      nuget       5.0.0.2012
+Xamarin.Forms.Platform.GTK                      nuget       5.0.0.2012
